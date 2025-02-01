@@ -1,3 +1,4 @@
 altair==4.2.0
 streamlit==1.18.0
 speechrecognition==3.8.1
+pyaudio==0.2.11
