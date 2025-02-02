@@ -22,7 +22,7 @@ def summarize_text(text, api_key):
     return response.text
 
 def main():
-    st.title("Speech Summarizer using Google Gemini")
+    st.title("Note Ninja 🥷")
     api_key = st.text_input("Enter your Google API Key", type="password")
     audio_value = st.audio_input("Record a voice message")
     
